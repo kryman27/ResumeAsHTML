@@ -1,0 +1,157 @@
+.body {
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+   
+    height: 3508px;
+    width: 2480px;
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+
+    position: relative;
+}
+
+.footer{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-style: solid;
+    border-color: yellow;
+    height: 200px;
+    width: 2460px;
+
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    position: absolute;  /* Pozycjonowanie absolutne wewnątrz rodzica */
+    bottom: 0;           /* Zawsze na dole rodzica */
+    left: 0;             /* Rozciągnięty na całą szerokość */
+}
+
+.banner{
+    height: 300px;
+    width: 2460px;
+
+
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: blueviolet;
+
+    position: absolute;  /* Pozycjonowanie absolutne wewnątrz rodzica */
+    top: 0;              /* Zawsze na górze rodzica */
+    left: 0;             /* Rozciągnięty na całą szerokość */
+
+    font-size: 60px;
+}
+
+
+
+.summary{
+    height: auto;
+
+
+    border-style: solid;
+    border-color: darkorange;
+
+    display: block;
+
+    font-size: 50px;
+    
+}
+
+.exp{
+    height: auto;
+
+
+    border-style: solid;
+    border-color: green;
+    display: block;
+}
+
+/* .summary, .exp {
+    width: 75%;                        
+    border-style: solid;
+    border-color: darkorange;
+    margin-bottom: 10px;             
+    font-size: 50px;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.exp {
+    border-color: green;              
+    font-size: 50px;
+    overflow-wrap: break-word;
+    white-space: normal;
+} */
+
+.main{
+    height: 2000px;
+    width: 75%;
+
+    display: block;
+
+
+    border-style: solid;
+    border-color: red;
+
+    position: absolute;
+    
+
+    top: 320px;
+    left: 0px;
+
+
+}
+
+.skills{
+    height: auto;
+    width: 25%;
+
+    border-style: solid;
+    border-color: violet;
+
+    display: flex;
+    position: absolute;
+
+    top: 320px;
+    left: 75%;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo{
+    width: 400px;
+    height: 400px;
+    
+}
+
+.description{
+    font-size: 50px;
+    text-align: left;              /* Wyrównuje tekst do lewej */
+    margin-top: 10px;              /* Odstęp między obrazkiem a tekstem */
+    width: 100%;                   /* Umożliwia tekstowi rozciąganie się w pełnej szerokości */
+}
+
+.description b{
+    display: block;
+}
+
+.list{
+    font-size: 40px;
+    text-align: left;
+    display: block;
+    margin-left: 40px;
+}
+
+table, th, td, tr{
+    border: 1px solid;
+    border-collapse: collapse;
+    font-size: 50px;
+}
